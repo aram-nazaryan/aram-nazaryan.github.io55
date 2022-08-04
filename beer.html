@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/pop_up.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="fixed_row">
+            <button class="fixed_button">home</button>
+            <button class="fixed_button">favorite</button>
+        </div>
+        <div class="pagecontent">
+            <div class="header">
+                <h1>Main title</h1>
+                <p>Small header</p>
+                <input type="text" placeholder="Shearch for beer․․․" id="input">
+                <p id="empty_input"></p>
+                <button id="add_new" onclick="open_win()">Insert</button>
+            </div>
+            <div id="content"></div>
+        </div>
+    </div>
+    <div id="discription">
+        <svg id="cross" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"></path></svg>
+        <h3 id="name_beer">Name</h3>
+        <input id="describe" placeholder="Describtion" type="text"><br>
+        <button onclick="catchbutton()">Enter</button>
+    </div>
+
+    <script type="module" src="./js/functional.js"></script>
+    <script type="module" src="./js/index.js"></script>
+    <script src="./js/button.js"></script>
+</body>
+</html>

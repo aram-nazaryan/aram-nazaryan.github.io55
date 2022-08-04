@@ -1,0 +1,32 @@
+#discription{
+    display: none;
+    position: absolute;
+    top: 30%;
+    right: 40%;
+    width: 20%;
+    height: 120px;
+    background: linear-gradient(to right, #eaee00, #06f89b);
+    padding: 15px;
+    text-align: center;
+    opacity: 0.8;
+    z-index: 10;
+}
+
+#discription:hover{
+    opacity: 1;
+}
+#cross{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+#cross:hover{
+    color: red;
+}
+
+#discription input{
+    width: 50%;
+    height: 20px;
+    margin-bottom: 10px;
+    outline: none;
+}

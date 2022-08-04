@@ -1,0 +1,46 @@
+#content{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20%;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.close_icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.close_icon:hover{
+    color: gold;
+    fill: orange;
+}
+
+.img {
+    height: 200px;
+    width: fit-content;
+}
+
+.beerhearder{
+    color: orange;
+    font-size: 24px;
+    font-weight: 600;
+}
